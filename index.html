@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <a href="#">
+                    RCHARDSC
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#topo-do-site" class="scroll-link">Início</a></li>
+                    <li><a href="#sobremim" class="scroll-link">Sobre</a></li>
+                    <li><a href="#skills" class="scroll-link">Skills</a></li>
+                    <li><a href="#projetos" class="scroll-link">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-resumo">
+                <a href="assets/curriculo.pdf" download>
+                    <button><h1>Resumo</h1><img src="assets/download.png" id="download"></button>
+                </a>
+            </div>
+    </header>
+    <main>
+        <section class="topo-do-site" id="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h3>Olá, eu sou</h3>
+                        <div id="h1h2">
+                            <h1>Ricardo Albuquerque</h1>
+                            <h2>Acadêmico de Eng. de Software</h2>
+                        </div>
+                        <div class="contatos">
+                            <a href="https://github.com/keydnss"><img src="assets/github.png"></a>
+                            <a href="https://www.linkedin.com/in/ricardo-albuquerque-4b63722bb/"><img src="assets/linkedin.png"></a>
+                            <a href="https://www.instagram.com/rchard.asc/"><img src="assets/instagram.png"></a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <div id="terminal">
+                                    <pre><h1>1     class <span>Person</span>{</h1></pre>
+                                    <pre><h1>2          constructor(){</h1></pre>
+                                    <pre><h1>3               this.name = "<span>Ricardo Albuquerque</span>";</h1></pre>
+                                    <pre><h1>4               this.traits = "<span>DESIGN</span>", "<span>DEV</span>";</h1></pre>
+                                    <pre><h1>5               this.age = newDate().getFullYear() - 2006;</h1></pre>
+                                    <pre><h1>6          }</h1></pre>
+                                    <pre><h1>7     }</h1></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sobre-mim" id="sobremim">
+            <div class="interface">
+                <div class="flex">
+                    <h1>Sobre <span>Mim</span></h1>
+                    <div class="biografia">
+                        <img src="assets/eu.png">
+                        <p>Meu nome é Ricardo Albuquerque e sou estudante de Engenharia de Software. Atualmente, tenho uma afinidade maior com design e gosto de colaborar em projetos que envolvam criatividade e usabilidade. No entanto, estou sempre buscando evoluir e expandir meus conhecimentos — especialmente nas áreas de Ciência de Dados e Inteligência Artificial, que são minhas grandes metas de aprofundamento profissional. Estou construindo meu caminho com dedicação e curiosidade, sempre aberto a novos desafios e aprendizados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div id="fundo-black">
+                <div class="flex">
+                    <h1>Principais <span>Skills</span></h1>
+                    <div id="skills">
+                        <img src="assets/java.png">
+                        <img src="assets/phosothop.png">
+                        <img src="assets/figma.png">
+                        <img src="assets/html.png">
+                    </div>
+                </div>
+                <h2 id="s1">PowerPoint</h2>
+                <h2 id="s2">React</h2>
+                <h2 id="s3">C++</h2>
+                <h2 id="s4">Premiere</h2>
+                <h2 id="s5">JavaScript</h2>
+            </div>
+        </section>
+        <section class="github" id="projetos">
+            <div class="interface">
+                <h1>Projetos <span>GitHub</span></h1>
+                <div class="repos-container" id="repos"></div>
+            </div>
+        </section>
+        <section></section>
+    </main>
+    <script src="js/repos.js"></script>
+</body>
+</html>
